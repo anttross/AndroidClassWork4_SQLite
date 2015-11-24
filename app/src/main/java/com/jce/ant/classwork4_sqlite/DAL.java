@@ -16,6 +16,10 @@ import java.util.ArrayList;
 public class DAL {
     DBHelper dbHelper;
 
+
+
+    // do something
+
     public DAL(Context c){
         dbHelper = new DBHelper(c);
 
