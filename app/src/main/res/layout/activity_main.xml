@@ -4,20 +4,20 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:id="@+id/listView1"
+        android:id="@+id/CursorListViewLeft"
         android:background="#FEDCBA"/>
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:id="@+id/listView2"
+        android:id="@+id/ArraylistViewrRight"
         android:background="#ABCDEF"/>
 
 
